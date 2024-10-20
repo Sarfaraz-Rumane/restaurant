@@ -1,0 +1,218 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all elements */
+}
+
+body {
+    background-color: #f2f2f2; /* Light dull background */
+    color: #333;
+    transition: background-color 0.5s ease; /* Background transition */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffd700;
+    color: #333;
+    transform: scale(1.05);
+    border-bottom: none;
+}
+
+.cart-btn {
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: #b52b22;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    background: url('slider\ 1.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 106, 0);
+    text-align: center;
+    transition: background-image 0.5s ease; /* Smooth transition for background image */
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease; /* Adding transform transition to text */
+}
+
+.hero h2:hover {
+    transform: scale(1.1); /* Grow text slightly on hover */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background-color: #ffd700;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #d4af37;
+    transform: translateY(-5px); /* Button lifts slightly */
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 0;
+    background-color: #bb7979;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu .section-title {
+    font-size: 36px;
+    color: #d9534f;
+    margin-bottom: 40px;
+}
+
+.menu-category {
+    font-size: 28px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.menu-item h4 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #d9534f;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.menu-item .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.menu-item .add-to-cart {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-item .add-to-cart:hover {
+    background-color: #b52b22;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

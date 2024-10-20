@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Palace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="icon" href="pngwing.com (1).png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+<!-- <a href="">logo</a> -->
+<img src="pngwing.com (1).png" alt="">
+ <div class="items">
+<ul>
+   <a href="/"><li>Home</li></a>
+    <a href="/menu.html"><li>Menu</li></a>
+    <a href="/contact.html"><li>Contact</li></a>
+    <a href="/menu.html"><li>Category</li></a>
+</ul>
+
+ </div>
+
+    </nav>
+    
+<div class="slider">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <input type="radio" name="radio-btn" id="radio1" checked>
+      <!-- Slide 2 -->
+      <input type="radio" name="radio-btn" id="radio2">
+      <!-- Slide 3 -->
+      <input type="radio" name="radio-btn" id="radio3">
+      <!-- Slide 4 -->
+      <input type="radio" name="radio-btn" id="radio4">
+  
+      <div class="slide first">
+        <img src="slider 1.jpg" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="slider 2.jpg" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="slider 3.avif" alt="Slide 3">
+      </div>
+      <div class="slide">
+        <img src="slider 1.jpg" alt="Slide 4">
+      </div>
+  
+      <!-- Automatic Navigation Start -->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!-- Automatic Navigation End -->
+    </div>
+  
+    <!-- Manual Navigation Start -->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!-- Manual Navigation End -->
+  </div>
+    <section class="container">
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-content">
+                    <h3>PIZZA</h3>
+                    <img src="/4.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong> &#8377; 199</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-content">
+                    <h3>burger</h3>
+                    <img src="/5.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong>&#8377; 99</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>frankie</h3>
+                    <img src="/6.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong>&#8377; 79</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>noodles</h3>
+                    <img src="/2.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong>&#8377;  340</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>fried rice</h3>
+                    <img src="/3.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong>&#8377; 160</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>manchurian</h3>
+                    <img src="/1.jpg" alt="" width="200px" height="100px">
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis praesentium nisi, incidunt reprehenderit ea quasi aliquid minus aut saepe eveniet vel delectus in aperiam sapiente quo commodi cupiditate? Ullam.</p>
+                    <button class="read-more" onclick="toggleReadMore(this)">Read More</button>
+                    <div class="price-offer">
+                        <h2><strong>&#8377; 220</strong></h2>
+                        <h2>Offers</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>Welcome to Dragon Palace, a place where authentic Chinese flavors meet a modern dining experience. Enjoy our freshly prepared dishes, cozy ambiance, and exceptional service.</p>
+            <div class="contact">
+              <span><i class="fas fa-map-marker-alt"></i> 123 Beijing Street, New York, NY 10001</span>
+              <span><i class="fas fa-phone-alt"></i> +1 (123) 456-7890</span>
+              <span><i class="fas fa-envelope"></i> info@dragonpalace.com</span>
+            </div>
+          </div>
+      
+          <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Reservations</a></li>
+              <li><a href="#">Order Online</a></li>
+              <li><a href="#">Events & Catering</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section social">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-yelp"></i></a>
+            </div>
+          </div>
+      
+          <div class="footer-section hours">
+            <h2>Business Hours</h2>
+            <ul>
+              <li>Monday - Friday: 11:00 AM - 10:00 PM</li>
+              <li>Saturday: 12:00 PM - 11:00 PM</li>
+              <li>Sunday: 12:00 PM - 9:00 PM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Dragon Palace | All Rights Reserved | Privacy Policy | Terms & Conditions</p>
+        </div>
+      </footer>
+      
+<script src="script.js"></script>
+</body>
+</html>
